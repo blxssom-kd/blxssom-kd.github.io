@@ -24,36 +24,41 @@
             flex-direction: column;
             max-width: 95%;
             margin: auto;
-            border: 3px solid #000000;
+            border: 3px solid #cecece;
             border-radius: 5px;
-            box-shadow: 2px 2px 1px 0px #000000;
+            box-shadow: 2px 2px 1px 0px #cecece;
 
         }
 
            
         .greet{
             font-size: 3em;
+            color: #808080;
         }
 
         .date {
       
             font-family: monospace;
             font-size: 2em;
+            color: #808080;
         }
 
         .clock {
             font-family: monospace;
             font-size: 2em;
+            color: #808080;
         }
 
         .time {
             display: inline-block;
             min-width: 20px;
+            color: #808080;
         }
 
         .colon {
             font-size: 1em;
             display: inline-block;
+            color: #808080;
         }
 
      
@@ -95,7 +100,7 @@
 
 function dispalyGreetings(today){
         hrs = today.getHours();
-        name="Kiara🌼"
+        name="Kiara <3"
         if (hrs < 12)
             greet = 'Good Morning  '+name;
         else if (hrs >= 12 && hrs <= 17)
